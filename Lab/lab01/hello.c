@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+void f(){
+    int u=0;
+    int v=1;
+    u+v;
+
+}
+
+
 int main(int argc, char *argv[]) {
     int i;
     int count = 0;
@@ -8,7 +16,7 @@ int main(int argc, char *argv[]) {
     for (i = 0; i < 10; i++) {
         (*p)++; // Do you understand this line of code and all the other permutations of the operators? ;)
     }
-
+    f();
     printf("Thanks for waddling through this program. Have a nice day.");
     return 0;
 }
